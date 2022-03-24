@@ -1,0 +1,25 @@
+{
+    "name": "ombeni/2f",
+    "description": "This is php framework to create website very fast",
+    "type": "project",
+    "require-dev": {
+        "twig": "2",
+        "symfony/twig-bundle": "^5.4"
+    },
+    "authors": [
+        {
+            "name": "Ombeni Tango",
+            "email": "ombenitango42@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "~2.0"  
+       
+    },
+    "autoload": {
+        "psr-4": {
+             "Core\\": "Core/",
+             "App\\": "App/"
+        }
+    }
+}
