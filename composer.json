@@ -1,9 +1,9 @@
 {
-    "name": "ombeni/2f",
+    "name": "ombenitango/2f",
     "description": "This is php framework to create website very fast",
     "type": "project",
     "require-dev": {
-        "twig": "2",
+        "twig/twig": "2",
         "symfony/twig-bundle": "^5.4"
     },
     "authors": [
