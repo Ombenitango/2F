@@ -1,5 +1,4 @@
 <?php
-
 namespace App;
 
 class Config
@@ -31,3 +30,4 @@ class Config
 
     const SHOW_ERRORS=false;
 }
+?>

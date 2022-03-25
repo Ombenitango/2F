@@ -1,10 +1,10 @@
 <?php 
 namespace App\Models;
 use PDO;
-class HomeModels{
+class HomeModels extends \Core\Model{
  public static function getAll()
  {
-     echo "data comes from database";
+    $conn=static::getDB();// this is connection from database
  }
 }
 ?>

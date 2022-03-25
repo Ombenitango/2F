@@ -1,6 +1,6 @@
 {
     "name": "ombenitango/2f",
-    "description": "This is php framework to create website very fast",
+    "description": "Is a MVC php framework developed with the mindset of developing web application very fast, All you need is composer installed and you're aready to go.",
     "type": "project",
     "require-dev": {
         "twig/twig": "2",
