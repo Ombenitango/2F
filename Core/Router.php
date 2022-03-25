@@ -59,7 +59,7 @@ class Router
      *
      * @return boolean  true if a match found, false otherwise
      */
-    public function match($url)
+    public function matchRoutes($url)
     {
         foreach ($this->routes as $route => $params) {
             if (preg_match($route, $url, $matches)) {
@@ -100,7 +100,7 @@ class Router
     {
         $url = $this->removeQueryStringVariables($url);
 
-        if ($this->match($url)) {
+        if ($this->matchRoutes($url)) {
             $controller = $this->params['controller'];
             $controller = $this->convertToStudlyCaps($controller);
             //$controller = "App\Controllers\\$controller";
