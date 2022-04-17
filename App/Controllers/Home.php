@@ -16,6 +16,8 @@ class Home extends \Core\Controller{
         View::bindView("Home/index.html",[
            "data"=>"Message from home"
        ]);
+
+       
      }
 
   protected function before()

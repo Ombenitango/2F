@@ -1,9 +1,9 @@
 {
-    "name": "ombenitango/2f",
+    "name": "tanzaverse/2f",
     "description": "Is a MVC php framework developed with the mindset of developing web application very fast, All you need is composer installed and you're aready to go.",
     "type": "project",
     "require-dev": {
-        "twig/twig": "2",
+        "twig/twig": "3.3.2",
         "symfony/twig-bundle": "^5.4"
     },
     "authors": [
@@ -13,7 +13,7 @@
         }
     ],
     "require": {
-        "twig/twig": "~2.0"  
+        "twig/twig": "3.3.2"  
        
     },
     "autoload": {
