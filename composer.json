@@ -2,20 +2,14 @@
     "name": "tanzaverse/2f",
     "description": "Is a MVC php framework developed with the mindset of developing web application very fast, All you need is composer installed and you're aready to go.",
     "type": "project",
-    "require-dev": {
-        "twig/twig": "3.3.2",
-        "symfony/twig-bundle": "^5.4"
-    },
     "authors": [
         {
             "name": "Ombeni Tango",
-            "email": "ombenitango42@gmail.com"
+            "email": "ombenitango42@gmail.com",
+            "role": "Project founder"
         }
     ],
-    "require": {
-        "twig/twig": "3.3.2"  
-       
-    },
+
     "autoload": {
         "psr-4": {
              "Core\\": "Core/",
@@ -25,6 +19,8 @@
     "license": [
         "GPL-3.0-or-later",
         "MIT"
-     ]
-   
+     ],
+    "require": {
+        "twig/twig": "^3.3"
+    }
 }
