@@ -2,7 +2,7 @@
 Is a MVC php framework developed with the mindset of developing web application very fast, All you need is composer installed and you're aready to go.
 ## Here is how to create application using 2F
 - Install  [composer](https://getcomposer.org/download)
-- Run this `composer create-project ombeni/2f` from command line interface
+- Run this `composer create-project tanzaverse/2f` from command line interface
 - Change your sever configuration file from 
 
 - `DocumentRoot "/opt/lampp/htdocs/"` to `DocumentRoot "/opt/lamp/htdocs/my_project_name/public"`
