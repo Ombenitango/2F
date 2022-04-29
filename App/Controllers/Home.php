@@ -9,7 +9,7 @@ class Home extends \Core\Controller{
      * @return void
      */
 
-     public function index() 
+     public function indexAction() 
      {
      
       
