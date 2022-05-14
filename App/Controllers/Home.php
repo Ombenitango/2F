@@ -12,7 +12,7 @@ class Home extends \Core\Controller{
      public function indexAction() 
      {
      
-      
+       
         View::bindView("Home/index.html",[
            "data"=>"Message from home"
        ]);
