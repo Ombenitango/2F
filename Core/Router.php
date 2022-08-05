@@ -116,11 +116,11 @@ class Router
 
                 } else {
                     // echo "Method $action (in controller $controller) not found";
-                    throw new \Exception("Method $action (in controller $controller) not found");
+                    throw new \Exception("Method $action (in controller $controller) not found",404);
                 }
             } else {
                 // echo "Controller class $controller not found";
-                throw new \Exception("Controller class $controller not found");
+                throw new \Exception("Controller class $controller not found",404);
             }
         } else {
             // echo 'No route matched.';
