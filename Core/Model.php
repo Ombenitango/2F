@@ -23,7 +23,7 @@ abstract class Model
 
         if ($db === null) {
             $dsn = 'mysql:host=' . Config::DB_HOST . ';dbname=' .
-                   Config::DB_NAME . ';charset=utf8';
+                   Config::DB_NAME . ';charset=utf8mb4';
             $db = new PDO($dsn, Config::DB_USER, Config::DB_PASSWORD);
 
             // Throw an Exception when an error occurs
